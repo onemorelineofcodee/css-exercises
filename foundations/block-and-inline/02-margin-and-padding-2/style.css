@@ -1,3 +1,7 @@
+* {
+  border : 1px solid red;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -11,14 +15,19 @@ body {
 
 .title {
   background: #e3f4ff;
+  margin : 20px 10px 10px 10px ;
+  margin-top : 30px ;
+  
 }
 
 .content {
   background: #e3f4ff;
+  margin : 10px ;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin : 10px ;
 }
 
 button {
