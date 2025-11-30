@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+body * {
+  border : 1px solid red;
+}
+
+.header , .content , .footer {
+  flex : 1 1 auto;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+.content {
+  display: flex;
+}
+
+.footer{
+  display: flex;
+}
 body {
   height: 100vh;
   margin: 0;
