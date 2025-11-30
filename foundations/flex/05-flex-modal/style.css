@@ -1,15 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+.modal {
+  display: flex;
+  
+}
+
+.header{
+  font-weight: bold;
+}
+
+.left , .right {
+  margin : 12px;
+}
+
+.upper {
+  display : flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close-button{
+  margin : 5px;
+}
+
+.lower{
+  display: flex;
+  justify-content: flex-start;
+  margin-top:5px;
+}
+
 html, body {
   height: 100%;
 }
 
+.upper{
+  display : flex;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you th<div>
+        <div class="icon">!</div>
+        <div class="header">Are you sure you want to do that?</div>
+        <button class="close-button">✖</button>
+      </div>is one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
